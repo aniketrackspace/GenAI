@@ -3,11 +3,11 @@ Description:
 This Python program builds an interactive chatbot using Langchain, Groq, and Langgraph. It leverages the ChatGroq model (Gemma2-9b-It) and constructs a stateful conversation graph to handle user inputs. 
 
 Features:
-Environment Configuration: Loads API keys from a .env file (GROQ_API_KEY and LANGSMITH_API_KEY).
-Graph-Based Chat Flow: Utilizes Langgraph to structure the chatbot logic with start and end nodes.
-Streaming Responses: Streams responses in real-time, displaying assistant replies as they are generated.
-Interactive CLI Interface: Users can chat directly in the terminal, with the option to exit by typing quit or q.
-Responses will be saved in langsmith. 
+1. Environment Configuration: Loads API keys from a .env file (GROQ_API_KEY and LANGSMITH_API_KEY).
+2. Graph-Based Chat Flow: Utilizes Langgraph to structure the chatbot logic with start and end nodes.
+3. Streaming Responses: Streams responses in real-time, displaying assistant replies as they are generated.
+4. Interactive CLI Interface: Users can chat directly in the terminal, with the option to exit by typing quit or q.
+5. Responses will be saved in langsmith. 
 
 Setup:
 Install the necessary packages:
